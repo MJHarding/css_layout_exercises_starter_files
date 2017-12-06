@@ -1,0 +1,13 @@
+main {
+ font-size: 0;
+}
+
+.container {
+	border: 1px black solid;
+	width: 800px;
+	height:500px;
+}
+
+.box{
+	border: 1px black solid;
+}
