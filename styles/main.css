@@ -2,6 +2,11 @@ body * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   margin:0;
+
+}
+body {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
 }
 nav {
 	position: relative;
@@ -9,6 +14,7 @@ nav {
 	height: 50px;
 	background-color:grey;
 	text-align; left;
+	margin:0;
 
 }
 .logo {
@@ -21,11 +27,34 @@ nav {
 }
 ul#navlink li {
 	display:inline;
-	
+}
 
+.dashes {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right:auto;
+	border: 10px green dotted;
+	position:relative;
+	width: 600px;
+	height: 300px;
+	
 }
 a {
   text-decoration: none;
   padding-left:50px;
   display: inline-block;
+}
+
+.cat, .dog {
+  position: absolute;
+  width:200px;
+}
+
+.cat {
+top : -100px;
+left: -100px;
+}
+.dog {
+	bottom: -100px;
+	right: -50px;
 }
